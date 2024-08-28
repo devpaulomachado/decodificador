@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstalic.com" crossorigin>
+    <link rel="stylesheet" href="/style.css">
+    <title>Decodificador</title>
+    
+    </head>
+    <body>
+        <header class="titulo-1">
+                <h1>DECODIFICADOR</h1>
+        </header>
+
+        <main class="main">
+            <section class="texto1">
+                <div>
+                    <textarea id="textarea1" class="textarea"cols="41" rows="4" placeholder="Digite seu texto aqui."></textarea>
+                </div>
+    
+                <div class="atencao">
+                    <div class="atencao_img">
+                        <img src="/Imagens/atencao.png" width="40px">
+                    </div>
+                    <div class="atencao_frase">
+                        Apenas letras minúsculas e sem acento.
+                    </div>
+                </div>
+    
+                <div class="comandos">
+                    <div class="botoes" >
+                        <button class="encriptar" onclick="btnEncriptar()"> CRIPTOGRAFAR </button>
+                        <button class="desencriptar" onclick="btnDesencriptar()">DESCRIPTOGRAFAR</button> 
+                    </div>
+                </div>
+               
+            </section>
+            <section class="seta"> 
+                <img src="/Imagens/seta.png">
+            </section>
+            <section class="texto2">
+                <div>
+                    <textarea readonly class="textarea2" cols="41" rows="4" placeholder="Digite o texto que você deseja criptografar ou descriptografar ao lado."></textarea>
+                </div>
+                <div>
+                    <div class="botaocopiar">
+                        <button class="botao_copiar" onclick="copiarTexto()">COPIAR</button>
+                    </div>
+                </div>
+            </section>
+    
+        </main>
+        <footer class="footer">
+        <p class="criadora">Create by Kemily Diniz</p>
+        <div>
+            <a class="links" href="https://github.com/kemidiniz" target="_blank">
+                <img class="links" src="/Imagens/github.png" />
+            </a>
+            
+            <a class="links" href="https://www.linkedin.com/in/kemilydiniz/" target="_blank">
+                <img class="links" src="/Imagens/linkedin.png" />
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
