@@ -1,0 +1,23 @@
+
+.header {
+    width: 100%;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1em 0;
+}
+
+.header__container__image {
+    width: 1.5em;
+}
+
+.header__container__title {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
